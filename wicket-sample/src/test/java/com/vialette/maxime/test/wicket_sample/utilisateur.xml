@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <adresse RUE="96 rue du 1er mars 1943" codepostal="69100" ville="Villeurbanne" />
+  <adresse RUE="3 placette de la sioule" codepostal="63800" ville="Cournon d'auvergne" />
+  
+  <utilisateur NOM="VIALETTE" PRENOM="Maxime" AGE="29" id_adress="1"/>
+  <utilisateur NOM="VIALETTE" PRENOM="Geoffrey" AGE="24" id_adress="2"/>
+  <utilisateur NOM="VIALETTE3" PRENOM="Jessica" AGE="29" id_adress="1"/>
+
+</dataset>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <utilisateur NOM="VIALETTE" PRENOM="Maxime" AGE="29"/>
+  <utilisateur NOM="VIALETTE2" PRENOM="Maxime2" AGE="30"/>
+  <utilisateur NOM="VIALETTE3" PRENOM="Maxime3" AGE="31"/>
+</dataset>

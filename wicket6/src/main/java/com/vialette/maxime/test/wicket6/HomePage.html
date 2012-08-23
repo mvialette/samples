@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="utf-8" />
+<title>Apache Wicket Quickstart</title>
+<!-- le css -->
+<link
+	href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold'
+	rel='stylesheet' type='text/css' />
+<link
+<link rel="stylesheet" href="stylesheets/foundation.css" type="text/css"
+	media="screen" title="Stylesheet" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"
+	title="Stylesheet" />
+<!-- le javascript -->
+<script type="text/javascript"
+	src="javascripts/jquery.foundation.alerts.js"></script>
+
+<script type="text/javascript"
+    src="javascripts/foundation.min.js"></script>
+    
+<script type="text/javascript"
+	src="javascripts/jquery.foundation.navigation.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$(document).foundationNavigation();
+	});
+</script>
+</head>
+<body>
+	<!-- id="errors"  -->
+	<div id="errors" wicket:id="feedbackPanel"></div>
+
+	<!-- 	<div class="alert-box success">
+		This is an alert box. <a href="" class="close">&times;</a>
+	</div> -->
+
+	<a class="button radius" wicket:id="lienA">error</a>
+	<a class="button radius" wicket:id="lienB">warn</a>
+	<a class="button radius" wicket:id="lienC">sucess</a>
+	<p>
+		<span wicket:id="du.texte">bla bla</span>
+		<wicket:container wicket:id="version">1.5-SNAPSHOT</wicket:container>
+		.
+	</p>
+	<!-- <form wicket:id="monChatForm">
+		<input type="text" wicket:id="monTF"> <input type="submit"
+			wicket:id="monLien">
+		<a wicket:id="monLien">un
+			lien</a>
+	</form> -->
+	<a class="button radius" wicket:id="subscribe">subscribe messages</a>
+
+	<div wicket:id="labelMessage"></div>
+
+	<a class="button radius" target="_blank" wicket:id="nextPage">Go to
+		chat page</a>
+
+	<a class="button radius" target="_blank" wicket:id="rssReaderLink">Go
+		to rss reader</a>
+
+	<div class="container">
+		<ul class="nav-bar">
+			<li class="active"><a href="#">Nav Item 1</a></li>
+			<li class="has-flyout"><a href="#">Nav Item 2</a> <a href="#"
+				class="flyout-toggle"><span> </span></a>
+				<ul class="flyout">
+					<li><a href="#">Sub Nav 1</a></li>
+					<li><a href="#">Sub Nav 2</a></li>
+					<li><a href="#">Sub Nav 3</a></li>
+				</ul></li>
+
+			<li class="has-flyout">
+			<a href="#">Nav Item 4</a>
+			<a href="#" class="flyout-toggle">
+			 <span></span>
+			</a>
+			<div class="flyout down">
+				<h5>Large Dropdown</h5>
+				<div class="row">
+					<div class="eight columns">
+						<p>This is example text and will expand up, not down.</p>
+						<p>This is example text and will expand up, not down.</p>
+						<p>This is example text and will expand up, not down.</p>
+					</div>
+				</div>
+			</div></li>
+		</ul>
+	</div>
+</body>
+</html>

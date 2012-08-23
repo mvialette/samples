@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="javascripts/jquery.js"></script>
+<script type="text/javascript" src="javascripts/jquery.shortkeys.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).shortkeys({
+			'p' : function() { $('#previous').click(); },
+			'n' : function () { $('#next').click(); }
+		});
+		
+		$(function(){
+		    $('.scroll-pane').jScrollPane();
+		});
+	});
+</script>
+</head>
+<body>
+	<span wicket:id="nbElementNonLu"></span>
+	<a id="previous" wicket:id="previous">previous</a>
+	<a id="next" wicket:id="next">next</a>
+	<div wicket:id="unPanelReader"></div>
+</body>
+</html>
